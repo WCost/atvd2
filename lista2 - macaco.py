@@ -141,10 +141,10 @@ else:
     pass
 
 if macaco2.bucho == 0:
-    print("O macaco ", macaco2.nome, "deseja comer o macaco", macaco1.nome, ". Aceita isso?")
+    print("O macaco ", macaco2.nome, "está faminto e deseja comer o macaco", macaco1.nome, ". Aceita isso?")
     canibal = input("Digite 'S' para sim e 'N' para não")
     if canibal in ['S', 's']:
-        print("O ", macaco1.nome, "Virou sopa de macaco!!")
+        print("O ", macaco1.nome, "virou sopa de macaco!!")
     elif canibal in ['N', 'n']:
         pass
     else:
